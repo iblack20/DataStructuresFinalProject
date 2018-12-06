@@ -1,0 +1,13 @@
+﻿  Hospital.cpp
+z:\cs-273-1\homework_and_projects\final project\ersimulator\ersimulator\hospital.cpp(11): error C2664: 'std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::find(Resident *const &) const': cannot convert argument 1 from 'Resident' to 'Resident *const &'
+          with
+          [
+              _Ty=Resident *,
+              _Kty=Resident *,
+              _Pr=std::less<Resident *>,
+              _Alloc=std::allocator<Resident *>
+          ]
+  z:\cs-273-1\homework_and_projects\final project\ersimulator\ersimulator\hospital.cpp(11): note: Reason: cannot convert from 'Resident' to 'Resident *const '
+  z:\cs-273-1\homework_and_projects\final project\ersimulator\ersimulator\hospital.cpp(11): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  main.cpp
+  Generating Code...
