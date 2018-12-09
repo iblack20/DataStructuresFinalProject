@@ -2,7 +2,6 @@
 // Declares TreatmentQueue class
 //////////////////////////////////
 #include "Resident.h"
-#include "PriorityComparison.h"
 #include <queue>
 #include <vector>
 #include <cstdlib>
@@ -16,7 +15,7 @@ class TreatmentQueue
 {
 public:
 	TreatmentQueue() {}
-	std::priority_queue<Resident *> r_queue;
+	std::priority_queue<Resident> r_queue;			
 	virtual void update() = 0;
 	int randomTime(int max);
 	

@@ -39,9 +39,6 @@
     <ClInclude Include="WaitingRoomQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PriorityComparison.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -60,6 +57,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="WaitingRoomQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoctorQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NurseQueue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

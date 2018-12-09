@@ -150,7 +150,6 @@
     <ClInclude Include="DoctorQueue.h" />
     <ClInclude Include="Hospital.h" />
     <ClInclude Include="NurseQueue.h" />
-    <ClInclude Include="PriorityComparison.h" />
     <ClInclude Include="Resident.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -158,8 +157,10 @@
     <ClInclude Include="WaitingRoomQueue.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DoctorQueue.cpp" />
     <ClCompile Include="Hospital.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="NurseQueue.cpp" />
     <ClCompile Include="Resident.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

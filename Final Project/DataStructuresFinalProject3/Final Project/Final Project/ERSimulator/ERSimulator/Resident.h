@@ -36,9 +36,9 @@ public:
 	void setTotalTime(int);
 	void setAvgTime(int);
 	std::string getName();
-	bool operator< (Resident * r2)
+	bool operator< (const Resident &r2) const
 		{
-			return this->getPrioritynum() < r2->getPrioritynum();
+			return PriorityNumber < r2.PriorityNumber;
 		}
 
 };
