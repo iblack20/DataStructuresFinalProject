@@ -1,6 +1,6 @@
 #pragma once
 #include "TreatmentQueue.h"
-
+#include <iostream>
 
 #ifndef DoctortQueue_H_
 #define DoctorQueue_H_

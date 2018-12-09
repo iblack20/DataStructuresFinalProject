@@ -13,10 +13,11 @@ class WaitingRoomQueue : public TreatmentQueue
 private:
 	std::vector <Resident *> Residents;
 	std::vector <Resident *> SickResidents;
-	int PatientArrivalRate;
+	double PatientArrival;
+	double WholePatients = 0;
 public:
-	WaitingRoomQueue() { PatientArrivalRate = 0; };
-	WaitingRoomQueue(int ArrivalRate) { PatientArrivalRate = ArrivalRate; }
+	WaitingRoomQueue() { PatientArrival = 0; };
+	WaitingRoomQueue(double ArrivalRate) { PatientArrival = ArrivalRate/60.0; }
 	void update();
 	void addResident(Resident *);
 	int AssignPriorityNum();
