@@ -1,0 +1,6 @@
+﻿  Hospital.cpp
+  main.cpp
+  TreatmentQueue.cpp
+z:\cs-273-1\homework_and_projects\final project\ersimulator\ersimulator\treatmentqueue.cpp(6): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  ERSimulator.vcxproj -> Z:\CS-273-1\HOMEWORK_AND_PROJECTS\Final Project\ERSimulator\Debug\ERSimulator.exe
